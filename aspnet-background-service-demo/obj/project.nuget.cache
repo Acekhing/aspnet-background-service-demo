@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "yS3tZa2ow3Us2YY+zqgCioqEaEKnqu8efIQELKpJwa/mg6f++Ir3NEdKVcHHKDyNqaKBAxYr7u93e51qkJ3qYw==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\aspnet-background-service-demo\\aspnet-background-service-demo\\aspnet-background-service-demo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\INNORIK_PC10\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\INNORIK_PC10\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\INNORIK_PC10\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\INNORIK_PC10\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\INNORIK_PC10\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\INNORIK_PC10\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
