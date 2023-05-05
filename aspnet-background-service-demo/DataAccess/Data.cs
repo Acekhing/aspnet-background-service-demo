@@ -9,8 +9,8 @@ namespace aspnet_background_service_demo.DataAccess
             new()
             {
                 Id = 1,
-                UserName = "Test",
-                Email = "test@test.com",
+                UserName = "William O'Hara",
+                Email = "william.ohara94@ethereal.email",
                 Gender = "Male",
                 DeviceId = Guid.NewGuid().ToString(),
                 Country = "Ghana",

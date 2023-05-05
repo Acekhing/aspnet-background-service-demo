@@ -13,14 +13,16 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Register email service
-builder.Services.AddSingleton<IEmailService, EmailService>();
+builder.Services.AddSingleton<IEmailService, SmtpService>();
 
 // Register subscriber manager
 builder.Services.AddSingleton<SubscriptionManager>();
 
 // Register hosted services
-builder.Services.AddHostedService<OneTimeEmailService>();
-// builder.Services.AddHostedService<BatchEmailService>();
+builder.Services.AddHostedService<SendToAllSubscribersService>();
+
+// Load resource from appsettings
+builder.Services.Configure<MailHost>(builder.Configuration.GetSection("MailHost"));
 
 var app = builder.Build();
 
